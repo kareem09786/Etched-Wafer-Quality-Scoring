@@ -1,0 +1,73 @@
+{
+  "main_run": {
+    "seed": 0,
+    "accuracy": 0.9166666666666666,
+    "roc_auc": 0.9506944444444445,
+    "confusion_matrix": [
+      [
+        117,
+        3
+      ],
+      [
+        17,
+        103
+      ]
+    ],
+    "false_positive_rate": 0.025,
+    "recall_by_fault": {
+      "bend only": 0.7037037037037037,
+      "width only": 0.96,
+      "corner only": 0.7142857142857143,
+      "two or three faults": 0.9574468085106383
+    },
+    "single_measure_auc": {
+      "straightness_rms_px": 0.8706944444444445,
+      "corner_offset_px": 0.8644444444444446,
+      "width_variation": 0.7393749999999999
+    },
+    "score_weights_on_standardised_measures": {
+      "straightness_rms_px": 2.6223027616698307,
+      "corner_offset_px": 3.5083560246243812,
+      "width_variation": 2.1901683030109074
+    },
+    "accuracy_95ci": [
+      0.8791666666666667,
+      0.95
+    ],
+    "roc_auc_95ci": [
+      0.915800060079397,
+      0.9804927548033492
+    ]
+  },
+  "repeat": {
+    "n_seeds": 10,
+    "accuracy_mean": 0.9254166666666667,
+    "accuracy_std": 0.02376989095577392,
+    "roc_auc_mean": 0.9631736111111111,
+    "roc_auc_std": 0.015875986584056652,
+    "accuracy_per_seed": [
+      0.9167,
+      0.9208,
+      0.9375,
+      0.9292,
+      0.875,
+      0.9375,
+      0.9583,
+      0.95,
+      0.9042,
+      0.925
+    ],
+    "roc_auc_per_seed": [
+      0.9507,
+      0.9674,
+      0.9728,
+      0.9529,
+      0.9295,
+      0.9725,
+      0.9799,
+      0.9824,
+      0.9585,
+      0.965
+    ]
+  }
+}
